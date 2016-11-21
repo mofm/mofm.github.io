@@ -546,11 +546,11 @@ REDIRECTIONS = [["get-cwd/index.html", "/posts/get-cwd.html"], ["pspye-ubuntu-ku
 #         "rsync -rav --delete output/ joe@my.site:/srv/www/site",
 #     ]
 # }
-DEPLOY_COMMANDS = {
-    'default': [
-        "rsync -rav --delete output/ mars@piesso.com:/home/mars/www/blog_piesso_com/htdocs",
-    ]
-}
+#DEPLOY_COMMANDS = {
+#    'default': [
+#        "rsync -rav --delete output/ mars@piesso.com:/home/mars/www/blog_piesso_com/htdocs",
+#    ]
+#}
 
 # github_deploy configuration
 # For more details, read the manual:
